@@ -1,0 +1,142 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    background-image: url(lake.jpg);
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px){
+    .header{
+        width: 10%;
+        left: 100px;
+    }
+    #img1
+    { 
+       width: 40%;
+    }
+}
+.fade
+{
+    background-color: aliceblue;
+    opacity: 30%;
+    height: 720px;
+    width: 100%;
+    /* z-index: 1; */
+}
+#img1
+{ 
+    position:absolute;
+    top: 8%;
+    border-radius: 200px;
+    height: 23%;
+    left: 10%;
+    /* width: 22%; */
+    filter: grayscale(60%);
+    /* z-index: -1; */
+} 
+#img2
+{
+    position:absolute;
+    bottom: 20%;
+    z-index: 1;
+    height: 40%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 30px;
+}
+.header
+{
+    position: absolute;
+    bottom: 83%;
+    left: 33%;
+    font-size: larger;
+}
+li
+{
+  list-style: none;
+}
+.name
+{
+    position: absolute;
+    top: 16%;
+    left: 40%;
+    font-family: monospace;
+}
+.info
+{
+    position: absolute;
+    top: 35%;
+    width: 40%;
+    left: 50%;
+    background-color: gray;
+    opacity: 80%;
+    /* height: 30%; */
+    padding: 2%;
+    box-shadow: 10px 10px 15px 15px white;
+}
+.place
+{
+    position:absolute;
+    top: 85%;
+    left: 40%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    /* background-color: #33b5e5; */
+    /* color: #ffffff; */
+    margin-right: 12px;
+    float: left;
+    /* border-right-style:solid; */
+    
+    /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+  }
+  .menu li>a
+  {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .menu li >a:hover {
+    /* background-color: #0099cc; */
+    color:cornflowerblue;
+  }
+  #td
+  {
+    display: flex;
+  }
+  #btn
+  {
+    position: relative;
+    top: 80px;
+    right: 20px;
+    width: 300%;
+    height: 40px;
+    box-shadow: 3px 3px 5px 5px white ;
+  }
+ #btn1
+ {
+  position: relative;
+    top: 30px;
+    /* right: 80px; */
+    left: 20px;
+    width: 300%;
+    height: 40px;
+    box-shadow: 3px 3px 5px 5px white ;
+ }
+ .user-logo
+ {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+ }
